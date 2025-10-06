@@ -60,8 +60,8 @@ export const useTrafficLight = () => {
     return {
         //Properties or const
         countDown,
-        colors,
-        light,
+        // colors,
+        // light,
 
         //Computed
         percentage: (countDown / 5) * 100,
